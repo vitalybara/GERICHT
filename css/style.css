@@ -34,7 +34,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body{
 	font-family: 'open sans';
-	background-color: #0C0C0C;
+	background-color: #0c0c0c;
+	
 
 }
 .wrapper{
@@ -106,6 +107,7 @@ a{
 
 .key{
 	background-color: #0c0c0c;
+	margin: 152px;
 }
 
 .key__row{
@@ -144,22 +146,24 @@ a{
 }
 .key__text{
 	display: flex;
+	width: 453px;
 	color: #AAAAAA;
+	text-align: justify
 	margin: 16px 0 16px 0;
 	font-family: 'Open Sans';
 	font-style: normal;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 175%;
 	letter-spacing: 0.04em;
 }
 .key__btn{
 	display: block;
+	font-family: 'Cormorant Upright';
 	line-height: 40px;
 	text-align: center;
 	font-size: 16px;
 	letter-spacing: 0.04em;
-	background-color: #fff;
+	background-color: #DCCA87;
 	width: 157px;
 	height: 44px;
 	margin: 16px 0 0 0;
@@ -168,4 +172,93 @@ a{
 .key__image{
 	width: 667px;
 	height: 736px;
+}
+
+
+
+.knife{
+	background: url('../img/fon2.png');
+}
+.knife__row{
+	display: flex;
+	padding: 128px;
+}
+.knife__left{
+	padding: 206px 85px 0 0;
+
+}
+.knife__left__titule{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: right;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #DCCA87;
+}
+.knife__left__icon{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.knife__left__text{
+	display: flex;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 175%;
+	text-align: right;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding: 32px 0 32px 0;
+
+}
+.knife__left__btn{
+	display: block;
+	font-family: 'Cormorant Upright';
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background-color: #DCCA87;
+	width: 157px;
+	height: 44px;
+	margin-left: auto;
+}
+.knife__image{}
+.knife__right{
+	padding: 206px 0 0 85px;
+}
+.knife__right__titule{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #DCCA87;
+}
+.knife__right__icon{
+	display: flex;
+}
+.knife__right__text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 175%;
+	text-align: left;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding: 32px 0 32px 0;
+}
+.knife__right__btn{
+	display: block;
+	font-family: 'Cormorant Upright';
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background-color: #DCCA87;
+	width: 157px;
+	height: 44px;
 }
