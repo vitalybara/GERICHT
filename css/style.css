@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 body{
 	font-family: 'open sans';
 	background-color: #0c0c0c;
-	
+
 
 }
 .wrapper{
@@ -261,4 +261,300 @@ a{
 	background-color: #DCCA87;
 	width: 157px;
 	height: 44px;
+}
+
+
+
+
+.table{
+ margin: 152px;
+
+}
+
+.container__table{
+	width: 1364px;
+	margin: 0 auto;
+}
+
+
+.table__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #DCCA87;
+	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+	padding: 48px 0;
+
+
+}
+.table__low{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	text-align: center;
+	color: #fff;
+}
+.table__icon{
+	margin-top: 8px;
+}
+.table__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #DCCA87;
+	margin-top: 8px;
+}
+.table__info{
+	display: flex;
+	max-width: 100%;
+
+	margin-top: 64px;
+}
+.person select{
+	display: flex;
+	align-self: start;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	border: 1px solid #DCCA87;
+	width: 412px;
+	height: 60px;
+	margin-right: 32px;
+	padding: 16px;
+}
+.data select{
+	display: flex;
+	align-self: start;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	border: 1px solid #DCCA87;
+	width: 412px;
+	height: 60px;
+	padding: 16px;
+}
+.time select{
+	display: flex;
+	align-self: start;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	border: 1px solid #DCCA87;
+	width: 412px;
+	height: 60px;
+	margin-left: 32px;
+	padding: 16px;
+}
+.table__btn{
+	display: block;
+	font-family: 'Cormorant Upright';
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background-color: #DCCA87;
+	width: 157px;
+	height: 44px;
+	margin-top: 64px;
+}
+
+
+.bar{
+	background-image: url('../img/FonBar.png');
+}
+.bar__row{
+	display: flex;
+	flex-direction: column;
+	padding: 261px 0 262px 145px;
+
+}
+p{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	padding-top: 64px;
+}
+.bar__decor{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+	padding-top: 0;
+}
+
+
+
+.menu{}
+.container__menu{
+	width: 1300px;
+	margin: 0 auto;
+}
+.menu__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 152px;
+}
+.menu__title__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu__low{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+.menu__icon{}
+.menu__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	color: #DCCA87;
+	margin-bottom: 64px;
+}
+.menu__body{
+	display: flex;
+	align-items: center;
+
+}
+.menu__left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 412px;
+	height: 596px;
+	margin-right: 32px;
+
+}
+.left__beverages{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+	padding-bottom: 48px;
+}
+.menu__list{
+}
+.first__beverages{
+}
+.up{
+	display: flex;
+	justify-content: flex-end;
+	
+
+}
+.name__beverages{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #DCCA87;
+	padding-right: 32px;
+	white-space: nowrap;
+	margin-right: auto;
+
+}
+.band{
+
+	padding-top: 14.5px;
+}
+.price{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+	padding-left: 32px;
+	align-self: flex-end;
+
+}
+.down{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding-bottom: 41.5px;
+	white-space: nowrap;
+}
+.second__beverages{}
+.third__beverages{}
+.fourth__beverages{}
+.fifth__beverages{}
+.menu__image{
+	margin-right: 32px;
+}
+.menu__right{}
+.right__beverages{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+	padding-bottom: 48px;
 }
