@@ -35,8 +35,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 body{
 	font-family: 'open sans';
 	background-color: #0c0c0c;
-
-
 }
 .wrapper{
 	display: flex;
@@ -47,12 +45,10 @@ body{
 	max-width: 1928px;
 	background-color: #0C0C0C;
 }
-
 a{
 	color: #FFF;
 	font-weight: 400;
 	font-size: 16px;
-
 }
 .header__row{
 	display: flex;
@@ -60,7 +56,6 @@ a{
 	justify-content: center;
 	align-items: center;
 	justify-content: space-between;
-
 }
 .header__logo{
 	font-family: 'Cormorant Upright';
@@ -76,8 +71,6 @@ a{
 	font-size: 16px;
 	line-height: 175%;
 }
-
-
 .header__login{
 	display: flex;
 	padding: 46.5px 120px 46.5px 120px;
@@ -103,8 +96,6 @@ a{
 	width: 1680px;
 	margin: 0 auto;
 }
-
-
 .key{
 	background-color: #0c0c0c;
 	margin: 152px;
@@ -118,8 +109,6 @@ a{
 	padding: 127.5px 0 219.5px 190px;
 	margin-right: 180px;
 	align-self: center;
-
-
 }
 .key__low{
 	color: #fff;
@@ -167,13 +156,11 @@ a{
 	width: 157px;
 	height: 44px;
 	margin: 16px 0 0 0;
-
 }
 .key__image{
 	width: 667px;
 	height: 736px;
 }
-
 
 
 .knife{
@@ -185,7 +172,6 @@ a{
 }
 .knife__left{
 	padding: 206px 85px 0 0;
-
 }
 .knife__left__titule{
 	font-family: 'Cormorant Upright';
@@ -211,7 +197,6 @@ a{
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
 	padding: 32px 0 32px 0;
-
 }
 .knife__left__btn{
 	display: block;
@@ -264,19 +249,13 @@ a{
 }
 
 
-
-
 .table{
  margin: 152px;
-
 }
-
 .container__table{
 	width: 1364px;
 	margin: 0 auto;
 }
-
-
 .table__row{
 	display: flex;
 	flex-direction: column;
@@ -284,8 +263,6 @@ a{
 	border: 1px solid #DCCA87;
 	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
 	padding: 48px 0;
-
-
 }
 .table__low{
 	font-family: 'Cormorant Upright';
@@ -391,7 +368,6 @@ a{
 	display: flex;
 	flex-direction: column;
 	padding: 261px 0 262px 145px;
-
 }
 p{
 	font-family: 'Cormorant Upright';
@@ -490,8 +466,6 @@ p{
 .up{
 	display: flex;
 	justify-content: flex-end;
-	
-
 }
 .name__beverages{
 	font-family: 'Cormorant Upright';
@@ -505,7 +479,6 @@ p{
 	padding-right: 32px;
 	white-space: nowrap;
 	margin-right: auto;
-
 }
 .band{
 
@@ -524,7 +497,6 @@ p{
 	color: #FFFFFF;
 	padding-left: 32px;
 	align-self: flex-end;
-
 }
 .down{
 	font-family: 'Open Sans';
@@ -558,3 +530,112 @@ p{
 	color: #FFFFFF;
 	padding-bottom: 48px;
 }
+.menu__btn{
+	display: block;
+	font-family: 'Cormorant Upright';
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background-color: #DCCA87;
+	width: 136px;
+	height: 44px;
+	margin-top: 65px;
+}
+
+
+.chef{
+	background-image: url('../img/Fonchef.png');
+}
+.container__chef{
+	width: 1300px;
+	margin: 0 auto;
+}
+.chef__row{
+	display: flex;
+	align-items: center;
+	padding: 128px 0;
+}
+.chef__image{}
+.chef__body{
+	padding: 96px;
+}
+.chef__body__title{}
+.chef__low{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+}
+.chef__icon{}
+.chef__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #DCCA87;
+	padding-bottom: 64px;
+}
+.chef__body__text{
+	display: flex;
+	flex-direction: column;
+	width: 570px;
+
+}
+.chef__text__1{
+	display: flex;
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	white-space: nowrap;
+}
+.chef__text__1_1{
+	margin-top: auto;
+	padding-left: 16px;
+}
+.chef__text__2{
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+}
+.chef__body__name{
+	padding: 64px 0;
+}
+.chef__name{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #DCCA87;
+}
+.chef__prof{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+}
+.chef__painting{}
