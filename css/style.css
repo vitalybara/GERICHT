@@ -31,7 +31,9 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*-----------------------------------------------------*/
-
+html{
+	overflow-x: hidden;
+}
 body{
 	font-family: 'open sans';
 	background-color: #0c0c0c;
@@ -1066,4 +1068,306 @@ p{
 	width: 136px;
 	height: 44px;
 	margin-top: 64px;
+}
+
+.instagram{
+	background-image: url('../img/Fonchef.png');
+}
+.container__insagram{
+	width: 2180px;
+	margin: 0 auto;
+}
+.instagram__row{
+	display: flex;
+	align-items: center;
+	padding: 129px 0 121px 310px;
+}
+.instagram__body__title{
+	width: 491px;
+
+}
+.instagram__low{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+.insagram__icon{}
+.insagram__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	color: #DCCA87;
+	padding-bottom: 24px;
+
+}
+.insagram__text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding-bottom: 24px;
+}
+.insagram__btn{
+	display: block;
+	font-family: 'Cormorant Upright';
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	background-color: #DCCA87;
+	width: 136px;
+	height: 44px;
+}
+.instagram__image{
+	display: flex;
+	padding-left: 64px;
+}
+.image__1{
+	padding-right: 32px;
+}
+
+
+
+.subscribe{}
+.container__subscribe{
+	width: 1300px;
+	margin: 0 auto;
+}
+.subscribe__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #DCCA87;
+	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+	margin-top: 121px;
+	padding: 64px 0;
+}
+.subscribe__body{
+}
+.subscribe__body__title{
+
+
+}
+.subscribe__title__low{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-align: center;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+}
+.subscribe__title__icon{
+	text-align: center;
+}
+.subscribe__title__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #DCCA87;
+	margin-top: 8px;
+}
+.subscribe__body__text{
+	text-align: center;
+}
+.subscribe__info{
+	display: flex;
+	padding-top: 64px;
+	width: 796px;
+	justify-content: space-between;
+}
+.email input{
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	border: 1px solid #DCCA87;
+	width: 635px;
+	height: 60px;
+	padding: 16px 0 16px 18.94px;
+}
+.subscribe__btn{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 32px;
+	gap: 10px;
+	width: 129px;
+	height: 44px;
+	background: #DCCA87;
+	border: 1px solid #DCCA87;
+
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #0C0C0C;
+}
+
+
+.footer{
+	background: url('../img/Fonchef.png');
+}
+.container__footer{
+	width: 1870px;
+	margin: 0 auto;
+}
+.footer__row{
+	display: flex;
+	flex-direction: column;
+
+
+}
+.footer__row__body{
+	display: flex;
+	justify-content: space-between;
+}
+.footer__left__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 153px;
+}
+.footer__left__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #F5EFDB;
+}
+.footer__streat__tel{}
+.streat{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	text-align: center;
+}
+.tel{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	text-align: center;
+}
+.footer__center__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 128px;
+	width: 438px;
+}
+.footer__center__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #DCCA87;
+}
+.footer__center__text{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	padding-top: 32px;
+}
+.footer__center__icon{
+	padding: 16px 0 18px 0;
+}
+.footer__center__soc{}
+.footer__right__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		padding-top: 153px;
+}
+.footer__right__title{
+	font-family: 'Cormorant Upright';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #F5EFDB;
+}
+.footer__time__work{}
+.weekdays{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	text-align: center;
+}
+.weekend{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	text-align: center;
+}
+
+.year{
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #AAAAAA;
+	padding: 80px 0 144px 0;
 }
