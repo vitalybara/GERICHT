@@ -31,1033 +31,107 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*-----------------------------------------------------*/
+
 html{
-	overflow-x: hidden;
+	
 }
+
 body{
 	font-family: 'open sans';
 	background-color: #0c0c0c;
 }
+
 .wrapper{
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 }
+
 .header{
 	color: #FFF;
 	max-width: 1928px;
-	background-color: #0C0C0C;
 }
+
 a{
-	color: #FFF;
-	font-weight: 400;
-	font-size: 16px;
+	color: #fff;
 }
+
+a:hover{
+	text-decoration: underline;
+}
+
 .header__row{
 	display: flex;
-	height: 121px;
 	justify-content: center;
 	align-items: center;
 	justify-content: space-between;
+	padding: 32px 120px;
 }
-.header__logo{
+
+.row__logo{
 	font-family: 'Cormorant Upright';
 	display: flex;
-	padding: 32px 120px;
 	font-size: 44px;
 	font-weight: 700;
 }
-.header__nav{
+
+.menu{
 	display: flex;
-	flex-grow: 0.2;
 	justify-content: space-between;
-	font-size: 16px;
-	line-height: 175%;
-}
-.header__login{
-	display: flex;
-	padding: 46.5px 120px 46.5px 120px;
-}
-.loginreg{
-	display: flex;
-	padding-right: 50px;
-}
-.slash{
-	display: flex;
-}
-.book{
-	display: flex;
-	padding-left: 50px;
+	width: 21.3%;
 }
 
-.content{
-	flex: 1 1 auto;
-	max-width: 1928px;
+.row__login{
+	display: flex;
+	justify-content: space-between;
+	width: 19%;
 }
 
 .container{
-	width: 1680px;
+	width: 1300px;
 	margin: 0 auto;
-}
-.key{
-	background-color: #0c0c0c;
-	margin: 152px;
 }
 
 .key__row{
 	display: flex;
-	margin: 48px;
+	justify-content: space-between;
+	padding: 95px 0 244px 0;
 }
-.key__body{
-	padding: 127.5px 0 219.5px 190px;
-	margin-right: 180px;
-	align-self: center;
-}
-.key__low{
-	color: #fff;
-	margin: 0 0 16px 0;
+
+.subtitle{
 	font-family: 'Cormorant Upright';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 23px;
-	line-height: 130%;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
 }
-.key__icon{
-	margin: 16px 0 16px 0;
-}
-.key__title{
-	color: #DCCA87;
-	margin: 16px 0 16px 0;
+
+h1{
 	font-family: 'Cormorant Upright';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 90px;
 	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-}
-.key__text{
-	display: flex;
-	width: 453px;
-	color: #AAAAAA;
-	text-align: justify
-	margin: 16px 0 16px 0;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-}
-.key__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 157px;
-	height: 44px;
-	margin: 16px 0 0 0;
-}
-.key__image{
-	width: 667px;
-	height: 736px;
-}
-
-
-.knife{
-	background: url('../img/fon2.png');
-}
-.knife__row{
-	display: flex;
-	padding: 128px;
-}
-.knife__left{
-	padding: 206px 85px 0 0;
-}
-.knife__left__titule{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 64px;
-	line-height: 130%;
-	text-align: right;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
 	color: #DCCA87;
 }
-.knife__left__icon{
-	display: flex;
-	flex-direction: row-reverse;
-}
-.knife__left__text{
-	display: flex;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-size: 16px;
-	line-height: 175%;
-	text-align: right;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	padding: 32px 0 32px 0;
-}
-.knife__left__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 157px;
-	height: 44px;
-	margin-left: auto;
-}
-.knife__image{}
-.knife__right{
-	padding: 206px 0 0 85px;
-}
-.knife__right__titule{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	color: #DCCA87;
-}
-.knife__right__icon{
-	display: flex;
-}
-.knife__right__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-size: 16px;
-	line-height: 175%;
-	text-align: left;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	padding: 32px 0 32px 0;
-}
-.knife__right__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 157px;
-	height: 44px;
-}
 
-
-.table{
- margin: 152px;
-}
-.container__table{
-	width: 1364px;
-	margin: 0 auto;
-}
-.table__row{
+.key__body{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	border: 1px solid #DCCA87;
-	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
-	padding: 48px 0;
-}
-.table__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	text-align: center;
-	color: #fff;
-}
-.table__icon{
-	margin-top: 8px;
-}
-.table__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-	margin-top: 8px;
-}
-.table__info{
-	display: flex;
-	max-width: 100%;
-
-	margin-top: 64px;
-}
-.person select{
-	display: flex;
-	align-self: start;
-	box-sizing: border-box;
-	background-color: #000;
-	color: #fff;
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	border: 1px solid #DCCA87;
-	width: 412px;
-	height: 60px;
-	margin-right: 32px;
-	padding: 16px;
-}
-.data select{
-	display: flex;
-	align-self: start;
-	box-sizing: border-box;
-	background-color: #000;
-	color: #fff;
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	border: 1px solid #DCCA87;
-	width: 412px;
-	height: 60px;
-	padding: 16px;
-}
-.time select{
-	display: flex;
-	align-self: start;
-	box-sizing: border-box;
-	background-color: #000;
-	color: #fff;
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	border: 1px solid #DCCA87;
-	width: 412px;
-	height: 60px;
-	margin-left: 32px;
-	padding: 16px;
-}
-.table__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 157px;
-	height: 44px;
-	margin-top: 64px;
+	align-self: center;
+	width: 34.8%;
 }
 
-
-.bar{
-	background-image: url('../img/FonBar.png');
-}
-.bar__row{
-	display: flex;
-	flex-direction: column;
-	padding: 261px 0 262px 145px;
-}
-p{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	color: #FFFFFF;
-	padding-top: 64px;
-}
-.bar__decor{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-decoration-line: underline;
-	color: #FFFFFF;
-	padding-top: 0;
-}
-
-
-
-.menu{}
-.container__menu{
-	width: 1300px;
-	margin: 0 auto;
-}
-.menu__row{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 152px;
-}
-.menu__title__body{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.menu__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	color: #FFFFFF;
-}
-.menu__icon{}
-.menu__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	color: #DCCA87;
-	margin-bottom: 64px;
-}
-.menu__body{
-	display: flex;
-	align-items: center;
-
-}
-.menu__left{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 412px;
-	height: 596px;
-	margin-right: 32px;
-
-}
-.left__beverages{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 45px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-	padding-bottom: 48px;
-}
-.menu__list{
-}
-.first__beverages{
-}
-.up{
-	display: flex;
-	justify-content: flex-end;
-}
-.name__beverages{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-	padding-right: 32px;
-	white-space: nowrap;
-	margin-right: auto;
-}
-.band{
-
-	padding-top: 14.5px;
-}
-.price{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-	padding-left: 32px;
-	align-self: flex-end;
-}
-.down{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	padding-bottom: 41.5px;
-	white-space: nowrap;
-}
-.second__beverages{}
-.third__beverages{}
-.fourth__beverages{}
-.fifth__beverages{}
-.menu__image{
-	margin-right: 32px;
-}
-.menu__right{}
-.right__beverages{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 45px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-	padding-bottom: 48px;
-}
-.menu__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 136px;
-	height: 44px;
-	margin-top: 65px;
-}
-
-
-.chef{
-	background-image: url('../img/Fonchef.png');
-}
-.container__chef{
-	width: 1300px;
-	margin: 0 auto;
-}
-.chef__row{
-	display: flex;
-	align-items: center;
-	padding: 128px 0;
-}
-.chef__image{}
-.chef__body{
-	padding: 96px;
-}
-.chef__body__title{}
-.chef__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-}
-.chef__icon{}
-.chef__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-	padding-bottom: 64px;
-}
-.chef__body__text{
-	display: flex;
-	flex-direction: column;
-	width: 570px;
-
-}
-.chef__text__1{
-	display: flex;
-	font-family: 'Open Sans';
-	font-style: italic;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	white-space: nowrap;
-}
-.chef__text__1_1{
-	margin-top: auto;
-	padding-left: 16px;
-}
-.chef__text__2{
-	font-family: 'Open Sans';
-	font-style: italic;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-}
-.chef__body__name{
-	padding: 64px 0;
-}
-.chef__name{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.chef__prof{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-}
-.chef__painting{}
-
-
-
-
-.comment{
-}
-.container__comment{
-	width: 1300px;
-	margin: 0 auto;
-}
-
-.coment__row{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.column__row{
-	display: flex;
-	align-items: center;
-	padding-bottom: 165px;
-
-}
-.commet__body__title{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 152px;
-}
-.comment__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	color: #FFFFFF;
-
-}
-.comment__icon{}
-.comment__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-	padding-bottom: 75px;
-}
-
-.comment__left__column{
-	display: flex;
-	flex-direction: column;
-
-}
-.left__up{
-	display: flex;
-	padding-bottom: 90px;
-}
-.left__up__image{}
-.left__up__body{
-	width: 412px;
-
-	padding-left: 32px;
-}
-
-.commet__body__info{}
-.comment__text{
-	font-family: 'Open Sans';
-	font-style: italic;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	width: 412px;
-}
-.comment__name{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.comment__prof{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #F5EFDB;
-}
-.left__down{
-	display: flex;
-}
-.left__down__image{}
-.left__down__body{
-	width: 412px;
-	padding-left: 32px;
-}
-.comment__right__column{
-	display: flex;
-	flex-direction: column;
-	padding: 32px;
-}
-.right__up{
-	display: flex;
-	padding-bottom: 90px;
-
-}
-.right__up__image{}
-.right__up__body{
-	width: 412px;
-	padding-left: 32px;
-}
-.right__down{
-	display: flex;
-
-}
-.right__down__image{}
-.right__down__body{
-	width: 412px;
-	padding-left: 32px;
-}
-
-
-
-.word{
-	background-image: url('../img/Fonchef.png');
-}
-.container__words{
-	width: 1300px;
-	margin: 0 auto;
-}
-.word__row{
-	display: flex;
-	align-items: center;
-	padding: 128px 0;
-}
-.word__row__body{
-	display: flex;
-	flex-direction: column;
-}
-.word__body__title{
-	padding-bottom: 64px;
-}
-.word__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-}
-.word__icon{}
-.word__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.column__row{
-	display: flex;
-}
-.left__column__word{}
-.left__w2{
-	display: flex;
-	padding-bottom: 64px;
-}
-.w2__body{
-	padding-right: 32px;	
-}
-.w2__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.w2__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-}
-.left__w5{
-	display: flex;
-}
-.w5__body{
-	padding-right: 32px;
-}
-.w5__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87
-}
-.w5__text{
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA
-}
-
-.right__column__word{}
-.right__w1{
-	display: flex;
-	padding-bottom: 64px;
-}
-.w1__body{}
-.w1__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.w1__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-}
-.right__w3{
-	display: flex;
-}
-.w3__body{}
-.w3__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87
-}
-.w3__text{
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA
-}
-.word__image{
-	padding-left: 183px;
-}
-
-
-
-.blog{}
-.container__blog{
-	width: 1300px;
-	margin: 0 auto;
-}
-.blog__row{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 182px 0 152px 0;
-
-}
-.blog__body__title{
-	display: flex;	
-	flex-direction: column;
-	align-items: center;
-}
-.blog__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-}
-.blog__icon{}
-.blog__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.blog__column__row{
-	display: flex;	
-	padding-top: 64px;
-
-
-}
-.blog__column__1{
-	padding-right: 32px;	
-}
-.blog__image__1{}
-.blog__body__1{
-	width: 412px;	
-}
-.data__name{
-	display: flex;	
-	justify-content: space-between;
-	padding: 24px 0 32px 0;	
-}
-.data__1{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #FAFAFA;
-}
-.name__1{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #FAFAFA;
-}
-.column__name{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-decoration-line: underline;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.column__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
+.text{
 	font-size: 16px;
 	line-height: 175%;
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
 	padding: 32px 0;
-
-}
-.column__read{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #DCCA87;
 }
 
-.blog__column__2{
-	padding-right: 32px;
-}
-.blog__image__2{}
-.blog__body__2{}
-.column__name__2{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-}
-.blog__column__3{}
-.blog__image__3{}
-.blog__body__3{
-	width: 	412;
-}
-
-.blog__btn{
+button{
 	display: block;
 	font-family: 'Cormorant Upright';
 	line-height: 40px;
@@ -1065,309 +139,483 @@ p{
 	font-size: 16px;
 	letter-spacing: 0.04em;
 	background-color: #DCCA87;
-	width: 136px;
+	width: 157px;
 	height: 44px;
-	margin-top: 64px;
 }
 
-.instagram{
-	background-image: url('../img/Fonchef.png');
-}
-.container__insagram{
-	width: 2180px;
-	margin: 0 auto;
-}
-.instagram__row{
-	display: flex;
-	align-items: center;
-	padding: 129px 0 121px 310px;
-}
-.instagram__body__title{
-	width: 491px;
-
-}
-.instagram__low{
+h2{
 	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	color: #FFFFFF;
-}
-.insagram__icon{}
-.insagram__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
 	font-weight: 600;
 	font-size: 64px;
 	line-height: 130%;
 	letter-spacing: 0.03em;
 	color: #DCCA87;
-	padding-bottom: 24px;
+}
 
+.main__knife{
+	background-image: url('../img/Fonchef.png');
 }
-.insagram__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	padding-bottom: 24px;
-}
-.insagram__btn{
-	display: block;
-	font-family: 'Cormorant Upright';
-	line-height: 40px;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	background-color: #DCCA87;
-	width: 136px;
-	height: 44px;
-}
-.instagram__image{
+.knife__row{
 	display: flex;
-	padding-left: 64px;
-}
-.image__1{
-	padding-right: 32px;
 }
 
+.knife__column{
+	align-self: center;
 
+}
 
-.subscribe{}
-.container__subscribe{
-	width: 1300px;
+.item-knife__left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.item-knife__image{
+	padding: 128px 85px;
+}
+
+.table__container{
+	width: 1364px;
 	margin: 0 auto;
 }
-.subscribe__row{
+
+.table__row{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #DCCA87;
-	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
-	margin-top: 121px;
-	padding: 64px 0;
+	padding: 48px 0;
+	margin: 152px 0; 
 }
-.subscribe__body{
-}
-.subscribe__body__title{
 
-
-}
-.subscribe__title__low{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 130%;
-	letter-spacing: 0.04em;
-	text-align: center;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #FFFFFF;
-}
-.subscribe__title__icon{
-	text-align: center;
-}
-.subscribe__title__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 64px;
-	line-height: 130%;
-	text-align: center;
-	letter-spacing: 0.03em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #DCCA87;
-	margin-top: 8px;
-}
-.subscribe__body__text{
-	text-align: center;
-}
-.subscribe__info{
+.row__body{
 	display: flex;
-	padding-top: 64px;
-	width: 796px;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	
 }
-.email input{
+
+.row__column{
+	display: flex;
+	justify-content: space-between;
+	width: 95.3%;
+	
+	
+}
+
+select{
+	display: flex;
+	align-self: start;
 	box-sizing: border-box;
 	background-color: #000;
 	color: #fff;
 	font-family: 'Cormorant Upright';
-	font-style: normal;
 	font-size: 16px;
 	letter-spacing: 0.04em;
-	font-feature-settings: 'tnum' on, 'lnum' on;
 	border: 1px solid #DCCA87;
-	width: 635px;
+	width: 30.2%;
 	height: 60px;
-	padding: 16px 0 16px 18.94px;
+	margin: 64px 0;
 }
-.subscribe__btn{
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 8px 32px;
-	gap: 10px;
-	width: 129px;
-	height: 44px;
-	background: #DCCA87;
-	border: 1px solid #DCCA87;
 
+.choice{
+	background-image: url('../img/FonBar.png');
+	height: 900px;
+}
+
+.choice__body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 145px;
+	height: 900px;
+	width: 30%;
+}
+
+.choice__item{
 	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
+	font-size: 64px;
+	line-height: 130%;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	padding-bottom: 64px;
+}
+
+.choice__item:last-child{
+	padding: 0;
+}
+
+.drink__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 152px 0;
+}
+.drink__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h3{
+	font-family: 'Cormorant Upright';
+	font-size: 45px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	padding-bottom: 48px;
+}
+.drink__column{
+	display: flex;
+	align-self: center;
+	align-items: center;
+	gap: 32px;
+	margin: 65px 0;
+}
+
+.price__up{
+	display: flex;
+	gap: 32px;
+	justify-content: flex-end;
+}
+
+.price__name{
+	justify-items: start;
+	margin-right: auto;
+	font-family: 'Cormorant Upright';
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	color: #DCCA87;
+}
+
+.price__value{
+	font-family: 'Cormorant Upright';
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	font-feature-settings: 'tnum' on, 'lnum' on;
+	color: #FFFFFF;
+}
+
+.price__down{
 	font-size: 16px;
 	line-height: 175%;
 	letter-spacing: 0.04em;
-	color: #0C0C0C;
+	color: #AAAAAA;
 }
 
-
-.footer{
-	background: url('../img/Fonchef.png');
-}
-.container__footer{
-	width: 1870px;
-	margin: 0 auto;
-}
-.footer__row{
+.price__band{
 	display: flex;
 	flex-direction: column;
-
-
+	align-self: center;
 }
-.footer__row__body{
+.item__price{
+	padding-bottom: 41.5px;
+}
+
+.item__price:last-child{
+	padding-bottom: 0;
+}
+
+.main__chef{
+	background-image: url('../img/Fonchef.png');
+}
+
+.chef__row{
 	display: flex;
-	justify-content: space-between;
+	padding: 128px 0;
 }
-.footer__left__body{
+
+.chef__image{
+	padding-right: 7.38%;
+}
+
+.chef__body{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	padding-top: 153px;
+	align-self: center;
 }
-.footer__left__title{
+
+.body__first-text{
+	display: flex;
+	height: 40px;
+	white-space: nowrap;
+	gap: 10px;
+}
+
+[class*=text]{
+	padding: 0;
+	align-items: flex-end;
+}
+
+.body__text{
+	padding: 64px 0;
+}
+
+h4{
 	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 32px;
 	line-height: 130%;
 	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
-	color: #F5EFDB;
+	color: #DCCA87;
 }
-.footer__streat__tel{}
-.streat{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
+
+.body__prof-chef{
 	font-size: 16px;
 	line-height: 175%;
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
-	text-align: center;
+	padding-bottom: 64px;
 }
-.tel{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	text-align: center;
-}
-.footer__center__body{
+
+.comment__row{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 128px;
-	width: 438px;
+	padding: 152px 0;
 }
-.footer__center__title{
-	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 130%;
+
+.comment__body{
 	text-align: center;
+	padding-bottom: 32px;
+
+}
+
+.comment__cloumn{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.comment__cloumn-left{
+	padding-right: 32px;
+}
+.comment__items{
+	display: flex;
+	gap: 32px;
+	padding-bottom: 64px;
+}
+
+.items__body{
+	align-self: center;
+}
+[class*=text]{
+	
+}
+
+.items__prof{
+	font-size: 16px;
+	line-height: 175%;
 	letter-spacing: 0.04em;
-	text-transform: uppercase;
+	color: #AAAAAA;
+}
+
+.comment__text{
+	font-style: italic;
+	font-size: 16px;
+	line-height: 175%;
+	color: #AAAAAA;
+}
+
+.main__word{
+	background-image: url('../img/Fonchef.png');
+}
+
+.word__row{
+	display: flex;
+	justify-content: space-between;
+	padding: 152px 0;
+}
+
+.word__body{
+	display: flex;
+	flex-direction: column;
+}
+
+.word__cloumn{
+	display: flex;
+	padding-top: 64px;
+}
+
+.word__items{
+	display: flex;
+	padding: 32px 32px 0 0;
+	width: 90%;
+}
+
+h5{
+	font-family: 'Cormorant Upright';
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
+	color: #DCCA87;
+
+}
+.word-items__image{
+	padding-right: 32px;
+}
+
+.blogs__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 152px 0;
+	gap: 64px;
+}
+
+.blogs__body{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.blogs__column{
+	display: flex;
+	gap: 32px;
+}
+
+.blogs__data-name{
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	line-height: 175%;
+	letter-spacing: 0.04em;
+	color: #FAFAFA;
+	padding-top: -8px;
+}
+
+.column__items{
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.blogs__title{
+	font-family: 'Cormorant Upright';
+	font-size: 32px;
+	line-height: 130%;
+	letter-spacing: 0.04em;
 	color: #DCCA87;
 }
-.footer__center__text{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
+
+.blogs__link{
+	color: #DCCA87;
+}
+
+.main__instagram{
+	background-image: url('../img/Fonchef.png' );
+}
+.instagram__row{
+	display: flex;
+	justify-content: space-between;
+	padding: 128px 0;
+}
+
+.instagram__body{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 40%;
+	align-self: center;
+
+}
+
+.instagram__foto{
+	white-space: nowrap;
+	margin-right: -310px;
+}
+
+.wrapper__footer{
+
+}
+footer{
+	max-width: 1870px;
+	margin: 0 auto;
+}
+
+.footer__row-contant{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: 1px solid #DCCA87;
+	gap: 64px;
+	box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+	margin: 113px 0 128px 0;
+	padding: 64px 0;
+}
+
+.footer__text-title{
 	font-size: 16px;
 	line-height: 175%;
 	text-align: center;
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
-	padding-top: 32px;
 }
-.footer__center__icon{
-	padding: 16px 0 18px 0;
-}
-.footer__center__soc{}
-.footer__right__body{
+
+.footer__form{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-		padding-top: 153px;
+	gap: 32px;
 }
-.footer__right__title{
+
+input{
+	display: flex;
+	align-self: start;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #fff;
 	font-family: 'Cormorant Upright';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 130%;
+	font-size: 16px;
 	letter-spacing: 0.04em;
-	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
+	border: 1px solid #DCCA87;
+	width: 635px;
+	height: 60px;
+	padding-left: 18.94px;
+}
+
+.footer__btn{
+	align-self: center;
+}
+
+.column__item-footer{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.item__title h4{
 	color: #F5EFDB;
-}
-.footer__time__work{}
-.weekdays{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	text-align: center;
-}
-.weekend{
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 175%;
-	letter-spacing: 0.04em;
-	color: #AAAAAA;
-	text-align: center;
+	padding-bottom: 24px;
 }
 
-.year{
+.item__title-center{
+	font-family: 'Cormorant Upright';
 
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
+font-weight: 700;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.04em;
+color: #DCCA87;
+}
+
+.irem__text-center{
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+
+}
+
+.footer__final{
 	font-size: 16px;
 	line-height: 175%;
-	text-align: center;
 	letter-spacing: 0.04em;
 	color: #AAAAAA;
-	padding: 80px 0 144px 0;
+	text-align: center;
+	padding: 82px 0 128px;
 }
